@@ -14,16 +14,6 @@
     font-style: normal;
 }
 
-html,
-body {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-}
-
 body {
     background-image: url('../img/background.jpeg');
     background-repeat: no-repeat;
@@ -93,11 +83,18 @@ span {
     color: #fff;
 }
 
-
-
 /*CONTENT*/
 
+.content-div {
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+
 .content {
+    position: absolute;
+    top: 25%;
+    left: 25%;
     width: 560px;
     height: 610px;
     margin: 0 auto 200px;
@@ -162,7 +159,7 @@ span {
 
 .ou img {
     display: block;
-    margin: 0px auto 40px;
+    margin: 36px auto 32px;
 }
 
 /*FORMS*/
@@ -170,8 +167,8 @@ span {
 .forms {
     position: relative;
     width: 100%;
-    height: 460px;
-    margin-top: -80px;
+    height: 360px;
+    margin-top: 0px;
 }
 
 input[type=text] {
@@ -221,7 +218,7 @@ input[type=submit] {
 /*end_FORMS*/
 
 .rules {
-    margin-top: 21px;
+    margin: 0;
 }
 
 .rules p {
